@@ -21,23 +21,23 @@ In short, advocates for residual momentum market strategy argue purely momentum-
 
 #### A certain stock’s correlation to market returns of the 3 Fama French factors is calculated over a long time-frame. In the case below, 3 years.
 
-The overall market and risk-free returns are calculated by ETF proxies throughout the 3 year period to approximate the excess return of the overall market.
+* The overall market and risk-free returns are calculated by ETF proxies throughout the 3 year period to approximate the excess return of the overall market.
 
-Grouped sub-portfolios returns are compared to approximate the excess returns of the other 2 Fama French factors. Market capitalization and Book to Price ratio. This method of constructing sub-portfolios of stocks high and low in a factor we are looking to assess allows us to, on average, isolate the effect of the factor on stock returns.
+* Grouped sub-portfolios returns are compared to approximate the excess returns of the other 2 Fama French factors. Market capitalization and Book to Price ratio. This method of constructing sub-portfolios of stocks high and low in a factor we are looking to assess allows us to, on average, isolate the effect of the factor on stock returns.
 
-Linear regression is used over the period to compare a stock’s daily returns to that of the factor mimicking portfolios. The correlations calculated is now our estimate of a stock's exposure to that factor.
+* Linear regression is used over the period to compare a stock’s daily returns to that of the factor mimicking portfolios. The correlations calculated is now our estimate of a stock's exposure to that factor.
 
 
 #### A certain stock’s predicted returns over a more recent time frame, in this case, 1 year, is calculated. 
 
-Risk-free and market returns proxies are again found 
+* Risk-free and market returns proxies are again found 
 
-Grouped sub-portfolios seen previously again mimick isolated returns offered by Fama French factors
+* Grouped sub-portfolios seen previously again mimick isolated returns offered by Fama French factors
 
-An expected returns metric is then calculated by multiplying a stock's exposure to a factor by the returns of the corresponding factor mimicking portfolio. 
+* An expected returns metric is then calculated by multiplying a stock's exposure to a factor by the returns of the corresponding factor mimicking portfolio. 
 
 
-The expected returns of a stock based on Fama French factor exposure alone is then calculated
+* The expected returns of a stock based on Fama French factor exposure alone is then calculated
 
 #### The stock’s predicted returns are compared to its actual returns in the recent time frame to give a residual momentum value.
 
@@ -45,7 +45,7 @@ This is z-scored and combined with a momentum z-score, to produce a real number 
 
 
 
-This metric is by no means a perfect representation of value and is not meant for use to select equities on its own. 
+*This metric is by no means a perfect representation of value and is not meant for use to select equities on its own.* 
 
 First, it should be tweaked depending on the particular output you are looking for. For example, picks could be more or less shielded from the potential pitfalls of high momentum stocks depending on how you weight the final evaluation metric. It could also be adjusted to seek mean reversion opportunities. 
 
